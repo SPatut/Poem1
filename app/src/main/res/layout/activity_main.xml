@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="222dp"
+        android:layout_gravity="center|top"
+        app:srcCompat="@drawable/sentrope" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/poemPartOne"
+        android:textStyle="bold"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnActTwo"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginVertical="25dp"
+            android:text="@string/btnTwo"></Button>
+
+        <Button
+            android:id="@+id/btnWeb"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginVertical="25dp"
+            android:text="Посмотреть видео"></Button>
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginVertical="25dp"
+            android:text="Сен Тропе на карте"></Button>
+    </LinearLayout>
+</LinearLayout>
